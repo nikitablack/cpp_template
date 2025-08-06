@@ -11,6 +11,7 @@ if(BUILD_TESTS)
     add_subdirectory(third_party/catch SYSTEM)
 endif()
 
+add_subdirectory(third_party/cmakerc SYSTEM)
 add_subdirectory(third_party/fmt SYSTEM)
 
 add_subdirectory(libs/warnings)
