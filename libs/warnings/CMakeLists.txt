@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.25)
+cmake_minimum_required(VERSION 3.25 FATAL_ERROR)
 
 # This file is larger based off of
 # https://github.com/cpp-best-practices/gui_starter_template/blob/b380f3d22b9426575f1b7e9135908a94c00a18a9/cmake/CompilerWarnings.cmake
